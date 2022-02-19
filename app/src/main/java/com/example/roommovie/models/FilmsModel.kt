@@ -18,6 +18,6 @@ data class FilmsModel (
     var category : String,
 
     @ColumnInfo(name = "films_duration")
-    var price : Int
+    var duration : String
 
 )
