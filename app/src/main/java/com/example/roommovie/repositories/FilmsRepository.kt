@@ -13,16 +13,16 @@ class FilmsRepository (private val filmDAO: FilmsDao) {
         return filmDAO.getFilter(nameCategory, durationFilm)
     }
 
-    suspend fun insertProduct(productModel: FilmsModel){
-        filmDAO.insertFilm(productModel)
+    suspend fun insertFilm(filmModel: FilmsModel){
+        filmDAO.insertFilm(filmModel)
     }
 
-    suspend fun updateFilm(productModel: FilmsModel){
-        filmDAO.updateFilm(productModel)
+    suspend fun updateFilm(filmModel: FilmsModel){
+        filmDAO.updateFilm(filmModel)
     }
 
-    suspend fun deleteFilm(productModel: FilmsModel) {
-        filmDAO.deleteFilm(productModel)
+    suspend fun deleteFilm(filmModel: FilmsModel) {
+        filmDAO.deleteFilm(filmModel)
     }
 
     suspend fun deleteAllFilms(){

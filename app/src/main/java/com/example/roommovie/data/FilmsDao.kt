@@ -8,13 +8,13 @@ import com.example.roommovie.models.FilmsModel
 interface FilmsDao {
 
     @Insert
-    suspend fun insertFilm(productModel: FilmsModel)
+    suspend fun insertFilm(filmModel: FilmsModel)
 
     @Update
-    suspend fun updateFilm(productModel: FilmsModel)
+    suspend fun updateFilm(filmModel: FilmsModel)
 
     @Delete
-    suspend fun deleteFilm(productModel: FilmsModel)
+    suspend fun deleteFilm(filmModel: FilmsModel)
 
     @Query("DELETE FROM films_data_table")
     suspend fun deleteAllFilms()
@@ -24,7 +24,4 @@ interface FilmsDao {
 
     @Query("SELECT * FROM films_data_table WHERE films_category = :nameCategory AND films_duration = :filmDuration")
     fun getFilter(nameCategory:String, filmDuration:String): LiveData<List<FilmsModel>>
-
-    // @Query("SELECT * FROM product_data_table WHERE product_category = 'Одежда' AND product_price = '2000'")
-    //fun getClothes(): LiveData<List<ProductModel>>
 }
