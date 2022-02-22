@@ -39,7 +39,7 @@
                 app:endIconTint="@android:color/holo_red_light"
                 android:hint="@string/labelEnterCategory"
                 app:hintTextColor="@android:color/white"
-                app:startIconDrawable="@drawable/catalog_categories"
+                app:startIconDrawable="@android:drawable/ic_dialog_dialer"
                 app:endIconMode="clear_text"
                 app:boxStrokeWidthFocused="4dp">
 

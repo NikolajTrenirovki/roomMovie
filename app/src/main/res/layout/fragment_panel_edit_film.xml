@@ -40,7 +40,7 @@
                 app:endIconTint="@android:color/holo_red_light"
                 android:hint="@string/labelEnterNameProduct"
                 app:hintTextColor="@android:color/white"
-                app:startIconDrawable="@drawable/catalog_categories"
+                app:startIconDrawable="@android:drawable/ic_dialog_dialer"
                 app:endIconMode="clear_text"
                 app:boxStrokeWidthFocused="4dp">
 
@@ -67,7 +67,7 @@
                 app:endIconTint="@android:color/holo_red_light"
                 android:hint="@string/labelEnterCategory"
                 app:hintTextColor="@android:color/white"
-                app:startIconDrawable="@drawable/catalog_products"
+                app:startIconDrawable="@android:drawable/ic_menu_slideshow"
                 app:endIconMode="clear_text"
                 app:boxStrokeWidthFocused="4dp">
 
@@ -93,7 +93,7 @@
                 app:endIconTint="@android:color/holo_red_light"
                 android:hint="@string/labelEnterDurationFilm"
                 app:hintTextColor="@android:color/white"
-                app:startIconDrawable="@drawable/price"
+                app:startIconDrawable="@android:drawable/presence_away"
                 app:endIconMode="clear_text"
                 app:boxStrokeWidthFocused="4dp">
 
