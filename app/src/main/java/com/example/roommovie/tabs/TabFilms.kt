@@ -38,7 +38,7 @@ class TabFilms : Fragment() {
         filmViewModel = ViewModelProvider(this, filmFactory!!).get(FilmsViewModel::class.java)
         initRecyclerFilms()
 
-        val onClickListener = binding?.deleteAllProducts?.setOnClickListener(View.OnClickListener {
+        val onClickListener = binding?.deleteAllFilms?.setOnClickListener(View.OnClickListener {
             filmViewModel?.deleteAllFilms()
         })
 
@@ -48,7 +48,7 @@ class TabFilms : Fragment() {
     private fun initRecyclerFilms(){
         binding?.recyclerFilms?.layoutManager = LinearLayoutManager(context)
         filmAdapter = FilmsAdapter({filmModel:FilmsModel->deleteFilm(filmModel)},
-            {filmModel: FilmsModel ->editFilm(filmModel)})
+            {filmModel: FilmsModel -> editFilm(filmModel)})
         binding?.recyclerFilms?.adapter = filmAdapter
 
         displayFilms()
@@ -65,8 +65,8 @@ class TabFilms : Fragment() {
         filmViewModel?.deleteFilm(filmModel)
     }
 
-    private fun editFIlm(filmModel:FilmsModel) {
-        val panelEditFilm = FilmsEditFilm()
+    private fun editFilm(filmModel:FilmsModel) {
+        val panelEditFilm = PanelEditFilm()
         val parameters = Bundle()
         parameters.putString("idFilm", filmModel.id.toString())
         parameters.putString("nameFilm", filmModel.name)

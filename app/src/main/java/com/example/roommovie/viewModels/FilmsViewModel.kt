@@ -26,7 +26,7 @@ class FilmsViewModel (private val filmRepository: FilmsRepository) : ViewModel()
 
     fun insertFilm(filmsModel: FilmsModel) = viewModelScope.launch{
 
-        filmRepository.insertProduct(filmsModel)
+        filmRepository.insertFilm(filmsModel)
     }
 
     fun updateFilm(filmsModel: FilmsModel) = viewModelScope.launch{

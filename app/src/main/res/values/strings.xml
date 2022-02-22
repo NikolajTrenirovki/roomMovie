@@ -15,7 +15,7 @@
 
     <string name="labelEnterCategory">Введите название категории</string>
     <string name="labelEnterNameProduct">Введите название товара</string>
-    <string name="labelEnterPriceProduct">Введите цену товара</string>
+    <string name="labelEnterDurationFilm">Введите длительность фильма</string>
 
     <string name="deleteAllCategories">УДАЛИТЬ ВСЕ КАТЕГОРИИ</string>
     <string name="deleteAllProducts">УДАЛИТЬ ВСЕ ФИЛЬМЫ</string>

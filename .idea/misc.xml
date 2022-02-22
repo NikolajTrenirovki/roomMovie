@@ -12,7 +12,10 @@
         <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/activity_main.xml" value="0.11614583333333334" />
         <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/category_item.xml" value="0.11354166666666667" />
         <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/film_item.xml" value="0.11354166666666667" />
+        <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/fragment_panel_edit_category.xml" value="0.17300724637681159" />
+        <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/fragment_panel_edit_film.xml" value="0.17300724637681159" />
         <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/fragment_tab_categories.xml" value="0.11354166666666667" />
+        <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/fragment_tab_panel.xml" value="0.17300724637681159" />
         <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/layout/tab_panel.xml" value="0.11302083333333333" />
         <entry key="..\:/User/KotlinAndroidCours/roomMovie/app/src/main/res/menu/bottom_menu.xml" value="0.11302083333333333" />
       </map>
