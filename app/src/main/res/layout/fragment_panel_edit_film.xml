@@ -26,7 +26,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="60dp"
                 android:textColor="@color/black"
-                android:text="@string/editProduct"/>
+                android:text="@string/editFilm"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/sectionEditNameFilm"
@@ -38,7 +38,7 @@
                 app:boxStrokeColor="@android:color/white"
                 app:startIconTint="@android:color/white"
                 app:endIconTint="@android:color/holo_red_light"
-                android:hint="@string/labelEnterNameProduct"
+                android:hint="@string/labelEnterNameFilm"
                 app:hintTextColor="@android:color/white"
                 app:startIconDrawable="@android:drawable/ic_dialog_dialer"
                 app:endIconMode="clear_text"
@@ -146,7 +146,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/sectionResEditFilm"
                 android:layout_marginTop="20dp"
-                android:text="@string/editProduct"
+                android:text="@string/editFilm"
                 android:background="@color/black"
                 android:textColor="@color/orange"/>
 

@@ -1,27 +1,27 @@
 <resources>
     <string name="app_name">roomMovie</string>
     <string name="panel">ПАНЕЛЬ</string>
-    <string name="catalogProducts">ФИЛЬМЫ</string>
-    <string name="catalogClothes">ОДЕЖДА</string>
+    <string name="catalogFilms">ФИЛЬМЫ</string>
+    <string name="catalogActionMovie">БОЕВИКИ</string>
     <string name="catalogCategories">КАТЕГОРИИ</string>
 
 
     <string name="addCategory">ДОБАВИТЬ КАТЕГОРИЮ</string>
-    <string name="addProduct">ДОБАВИТЬ ФИЛЬМ</string>
+    <string name="addFilm">ДОБАВИТЬ ФИЛЬМ</string>
 
     <string name="editCategory">РЕДАКТИРОВАНИЕ КАТЕГОРИИ</string>
-    <string name="editProduct">РЕДАКТИРОВАНИЕ ФИЛЬМА</string>
+    <string name="editFilm">РЕДАКТИРОВАНИЕ ФИЛЬМА</string>
 
 
     <string name="labelEnterCategory">Введите название категории</string>
-    <string name="labelEnterNameProduct">Введите название товара</string>
+    <string name="labelEnterNameFilm">Введите название фильма</string>
     <string name="labelEnterDurationFilm">Введите длительность фильма</string>
 
     <string name="deleteAllCategories">УДАЛИТЬ ВСЕ КАТЕГОРИИ</string>
-    <string name="deleteAllProducts">УДАЛИТЬ ВСЕ ФИЛЬМЫ</string>
+    <string name="deleteAllFilms">УДАЛИТЬ ВСЕ ФИЛЬМЫ</string>
 
-    <string name="shoes">ОБУВЬ</string>
-    <string name="accessories">АКСЕССУАРЫ</string>
+    <string name="shoes">КОМЕДИИ</string>
+    <string name="accessories">ТРИЛЛЕРЫ</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

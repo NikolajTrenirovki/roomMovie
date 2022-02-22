@@ -53,7 +53,7 @@ class TabFilters : Fragment() {
     }
 
     private fun displayFilterFilms(){
-        filmViewModel?.getFilter("боевики", "120")?.observe(viewLifecycleOwner, Observer {
+        filmViewModel?.getFilter("боевик", "120")?.observe(viewLifecycleOwner, Observer {
             filmAdapter?.setList(it)
             filmAdapter?.notifyDataSetChanged()
         })

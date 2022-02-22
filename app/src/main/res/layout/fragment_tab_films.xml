@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="20dp"
-                android:text="@string/deleteAllProducts"
+                android:text="@string/deleteAllFilms"
                 android:background="@color/orange"
                 android:textColor="@color/black"/>
 

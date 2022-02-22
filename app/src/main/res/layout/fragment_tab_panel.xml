@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/headerAddCategory"
                 android:layout_marginTop="20dp"
-                android:text="@string/catalogClothes"
+                android:text="@string/catalogActionMovie"
                 android:background="@color/orange"
                 android:textColor="@color/black"/>
 
@@ -64,7 +64,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="60dp"
                 android:textColor="@color/orange"
-                android:text="@string/addProduct"/>
+                android:text="@string/addFilm"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/sectionEnterNameFilm"
@@ -76,7 +76,7 @@
                 app:boxStrokeColor="@android:color/white"
                 app:startIconTint="@android:color/white"
                 app:endIconTint="@android:color/holo_red_light"
-                android:hint="@string/labelEnterNameProduct"
+                android:hint="@string/labelEnterNameFilm"
                 app:hintTextColor="@android:color/white"
                 app:startIconDrawable="@android:drawable/ic_dialog_dialer"
                 app:endIconMode="clear_text"
@@ -185,7 +185,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/sectionResEnterFilm"
                 android:layout_marginTop="20dp"
-                android:text="@string/addProduct"
+                android:text="@string/addFilm"
                 android:background="@color/orange"
                 android:textColor="@color/black"/>
 

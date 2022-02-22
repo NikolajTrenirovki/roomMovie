@@ -11,22 +11,22 @@
 
     <item
         android:id="@+id/catalogCategoriesItemBottomNav"
-        android:icon="@drawable/catalog_categories"
+        android:icon="@android:drawable/ic_dialog_dialer"
         android:title="@string/catalogCategories"
         app:showAsAction="ifRoom"/>
 
 
     <item
         android:id="@+id/catalogProductsItemBottomNav"
-        android:icon="@drawable/catalog_products"
-        android:title="@string/catalogProducts"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="@string/catalogFilms"
         app:showAsAction="ifRoom"/>
 
 
     <item
         android:id="@+id/catalogClothesItemBottomNav"
-        android:icon="@drawable/catalog_clothes"
-        android:title="@string/catalogClothes"
+        android:icon="@android:drawable/star_on"
+        android:title="@string/catalogActionMovie"
         app:showAsAction="ifRoom"/>
 
 </menu>
